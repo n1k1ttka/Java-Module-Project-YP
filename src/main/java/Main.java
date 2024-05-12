@@ -27,7 +27,7 @@ public class Main {
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Введены некорректные символы, пожалуйста введите целое число больше 1!");
-                scanner.next();
+                scanner.nextLine();
             }
         }
     }

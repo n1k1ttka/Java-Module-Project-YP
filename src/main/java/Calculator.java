@@ -22,8 +22,8 @@ public class Calculator {
                     break;
                 }
             } catch (InputMismatchException e) {
-                System.out.println("Цена должна являться числом!");
-                scanner.next();
+                System.out.println("Цена должна являться неотрицательным числом!");
+                scanner.nextLine();
             }
         }
         products.add(new Product(name, price));

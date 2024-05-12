@@ -1,6 +1,6 @@
 public class Product {
-    String name;
-    Double price;
+    final String name;
+    final Double price;
 
     Product(String name, Double price){
         this.name = name;
